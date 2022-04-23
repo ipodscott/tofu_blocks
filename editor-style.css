@@ -1,0 +1,37 @@
+.edit-post-visual-editor__post-title-wrapper .editor-post-title{
+	position: relative;
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	width:calc(100vw - 80px);
+}
+
+.main-container{
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
+	width:calc(100vw - 80px);
+	margin-bottom: 0 !important;
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+}
+
+.reverse-columns{
+	flex-direction: row-reverse !important;
+}
+
+.wp-block-columns{
+	gap: 0 2em !important;
+}
+
+.wp-block-column{
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lato', sans-serif;
+}
+
