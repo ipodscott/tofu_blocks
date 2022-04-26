@@ -28,3 +28,4 @@
 	
 	// Remove Core Block Patterns
 	remove_theme_support( 'core-block-patterns' );
+	include_once 'patterns/pattern_controller.php';
