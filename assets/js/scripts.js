@@ -25,7 +25,7 @@ jQuery(document).ready(function() {
         jQuery(".menu").addClass('show-menu');
         jQuery(".menu-layer").fadeIn(500);
         jQuery(".all, body").addClass('stop-scroll');
-		jQuery('footer').removeClass('footer-up').addClass('footer-down');
+		jQuery('.footer').removeClass('footer-up').addClass('footer-down');
     });
     jQuery(".menu ul li, .menu ul li a, .close-menu, .menu-layer").click(function() {
         jQuery(".menu").removeClass('show-menu');
@@ -50,7 +50,7 @@ jQuery(document).ready(function() {
 	var didScroll;
 	var lastScrollTop = 0;
 	var delta = 5;
-	var navbarHeight = jQuery('footer').outerHeight();
+	var navbarHeight = jQuery('.footer').outerHeight();
 	
 	jQuery(window).scroll(function(event){
 	    didScroll = true;
@@ -74,11 +74,11 @@ jQuery(document).ready(function() {
 	    // This is necessary so you never see what is "behind" the navbar.
 	    if (st > lastScrollTop && st > navbarHeight){
 	        // Scroll Down
-	        jQuery('footer').removeClass('footer-down').addClass('footer-up');
+	        jQuery('.footer').removeClass('footer-down').addClass('footer-up');
 	    } else {
 	        // Scroll Up
 	        if(st + jQuery(window).height() < jQuery(document).height()) {
-	            jQuery('footer').removeClass('footer-up').addClass('footer-down');
+	            jQuery('.footer').removeClass('footer-up').addClass('footer-down');
 	        }
 	    }
 	    
