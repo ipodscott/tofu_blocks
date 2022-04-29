@@ -1,38 +1,17 @@
 html {
-    margin: 0;
-    padding: 0
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-weight: 400;
-    background-color: #fff;
-    color: #000;
-    line-height: 1.5em;
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
-    font-family: Lato, 'sans-serif';
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
-.wp-site-blocks .alignfull,
-.wp-site-blocks > .wp-block-group.has-background,
-.wp-site-blocks > .wp-block-cover,
-.wp-site-blocks > .wp-block-template-part > .wp-block-group.has-background,
-.wp-site-blocks > .wp-block-template-part > .wp-block-cover,
-body > .is-root-container > .wp-block-cover,
-body > .is-root-container > .wp-block-template-part > .wp-block-group.has-background,
-body > .is-root-container > .wp-block-template-part > .wp-block-cover,
-.is-root-container .wp-block[data-align="full"] {
-	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
-	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
-	width: unset;
-}
-
-body.stop-scroll{
-	overflow: hidden;
+body.stop-scroll {
+  overflow: hidden;
 }
 
 /* width */
@@ -58,74 +37,68 @@ body.stop-scroll{
   background: #ccc;
 }
 
-
 .all {
-    display: block;
-    position: relative;
-    clear: both;
-    margin-left: 0;
-    padding-bottom: 80px;
-    transition: all 0.5s;
-    float: left;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    transform: scale(1);
+  display: block;
+  position: relative;
+  clear: both;
+  margin-left: 0;
+  padding-bottom: 80px;
+  transition: all 0.5s;
+  float: left;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transform: scale(1);
 }
 
-
-.all.stop-scroll{
- 	transform: scale(0.95) !important;
- 	pointer-events: none;
- 	overflow: hidden;
-  }
+.all.stop-scroll {
+  transform: scale(0.95) !important;
+  pointer-events: unset;
+  overflow: hidden;
+}
 
 .all.fade {
-    width: 100vw;
-    left: 260px
+  width: 100vw;
+  left: 260px;
 }
 
-.main-container{
-	position: relative;
-	max-width: 1400px;
-	margin: 0 auto;
-	width:calc(100vw - 80px);
-	margin-bottom: 80px;
+.main-container {
+  width: calc(100vw - 80px);
 }
 
-.wp-block-columns{
-	gap: 0 2em !important;
+.wp-block-columns {
+  gap: 0 2em !important;
 }
 
-.wp-block-column{
-	margin-right: 0 !important;
-	margin-left: 0 !important;
+.wp-block-column {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
 }
 
-.reverse-columns{
-	flex-direction: row-reverse;
+.reverse-columns {
+  flex-direction: row-reverse;
 }
 
-.footer{
-	background-color: rgba(0, 0, 0, 0.9);
-	color: #fff;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: fixed;
-	min-height: 80px;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	transition: all 0.5s;
-	}
+.footer {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  min-height: 80px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.5s;
+}
 
 .footer-down {
-    bottom: -90px;
+  bottom: -90px;
 }

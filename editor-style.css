@@ -1,29 +1,27 @@
-body{
-	font-family: 'Lato', 'sans-serif';
+body {
 }
-.reverse-columns{
-	flex-direction: row-reverse !important;
-}
-
-.wp-block-columns{
-	gap: 0 2em !important;
+.reverse-columns {
+  flex-direction: row-reverse !important;
 }
 
+.wp-block-columns {
+  gap: 0 2em !important;
+}
 
-.footer{
-	background-color: rgba(0, 0, 0, 0.9);
-	color: #fff;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: fixed;
-	min-height: 80px;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	transition: all 0.5s;
-	}
+.footer {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  min-height: 80px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.5s;
+}
 
 .footer-down {
-    bottom: -90px;
+  bottom: -90px;
 }
