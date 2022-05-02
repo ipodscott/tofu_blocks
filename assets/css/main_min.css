@@ -70,6 +70,10 @@ body.stop-scroll {
 
 .main-container {
   width: calc(100vw - 80px);
+  max-width: 1400px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
 }
 
 .wp-block-columns {

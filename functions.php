@@ -9,8 +9,22 @@ if (!function_exists("block_theme_setup")):
     add_editor_style("editor-style.css");
     // Enqueue Google Fonts to Appear both in the Admin Area and Front End. Google hosted fonts are not fully supported.
     wp_enqueue_style(
-      "google_fonts",
-      "//fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@300;400;500&family=Roboto+Slab:wght@300;400&display=swap",
+      "lato",
+      "//fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap",
+      true,
+      "1.1",
+      "all"
+    );
+    wp_enqueue_style(
+      "poppins",
+      "//fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap",
+      true,
+      "1.1",
+      "all"
+    );
+    wp_enqueue_style(
+      "roboto",
+      "//fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap",
       true,
       "1.1",
       "all"
@@ -48,15 +62,21 @@ if (!function_exists("theme_enqueue_scripts_styles")):
   add_action("wp_enqueue_scripts", "theme_enqueue_scripts_styles");
 endif;
 
-// Remove Core Block Patterns
-remove_theme_support("core-block-patterns");
+function recipe_cpt()
+{
+  register_post_type("recipe", [
+    "labels" => [
+      "name" => __("Recipes", "textdomain"),
+      "singular_name" => __("recipe", "textdomain"),
+    ],
+    "public" => true,
+    "has_archive" => true,
+    "show_in_rest" => true,
+    "label" => "Recieps",
+  ]);
+}
+add_action("init", "recipe_cpt");
 
-register_block_pattern_category("hero", [
-  "label" => __("Hero"),
-]);
-
-register_block_pattern_category("column_layout", [
-  "label" => __("Column Layout"),
-]);
+// Setup Core Block Patterns
 
 include_once "patterns/pattern_controller.php";
