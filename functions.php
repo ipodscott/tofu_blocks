@@ -73,14 +73,7 @@ function recipe_cpt()
     "has_archive" => true,
     "show_in_rest" => true,
     "label" => "Recieps",
-    "template" => [
-      [
-        "core/pattern",
-        [
-          "slug" => "layouts/recipe_page_starter",
-        ],
-      ],
-    ],
+    "template" => [["core/pattern", ["slug" => "layouts/recipe_page_starter"]]],
   ]);
 }
 add_action("init", "recipe_cpt");
