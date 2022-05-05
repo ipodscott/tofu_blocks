@@ -78,6 +78,25 @@ function recipe_cpt()
 }
 add_action("init", "recipe_cpt");
 
+/* Movies CPT*/
+
+function movies_cpt()
+{
+  register_post_type("movies", [
+    "labels" => [
+      "name" => __("Movies", "textdomain"),
+      "singular_name" => __("movies", "textdomain"),
+    ],
+    "public" => true,
+    "has_archive" => true,
+    "show_in_rest" => true,
+    "label" => "Movies",
+    "template" => [["core/pattern", ["slug" => "layouts/movies_starter"]]],
+  ]);
+}
+add_action("init", "movies_cpt");
+
+
 // Setup Core Block Patterns
 
 include_once "patterns/pattern_controller.php";

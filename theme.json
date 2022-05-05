@@ -10,6 +10,11 @@
       "name": "single-recipe",
       "title": "Single Recipe",
       "postTypes": ["recipe"]
+    },
+    {
+      "name": "single-movies",
+      "title": "Single Movies",
+      "postTypes": ["movies"]
     }
   ],
   "settings": {

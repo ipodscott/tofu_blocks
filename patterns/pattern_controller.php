@@ -17,3 +17,4 @@ register_block_pattern_category("page_starter", [
 include_once "block_pattern_one.php";
 include_once "large_promo.php";
 include_once "recipe_starter.php";
+include_once "movies_starter.php";
