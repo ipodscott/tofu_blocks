@@ -31,7 +31,7 @@ register_block_pattern("layouts/movies_starter", [
 <!-- wp:column {"className":"movies-right-column"} -->
 <div class="wp-block-column movies-right-column"><!-- wp:cover {"url":"https://pulplibrary.com/pulps/ghost_super_detective_4001/001.jpeg","id":28,"dimRatio":70,"minHeight":100,"minHeightUnit":"vh","className":"movie-right-overlay"} -->
 <div class="wp-block-cover movie-right-overlay" style="min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-70 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-28" alt="" src="https://pulplibrary.com/pulps/ghost_super_detective_4001/001.jpeg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","className":"img-opacity-3"} -->
-<figure class="wp-block-image size-full img-opacity-3"><img src="http://wpbeta.local/wp-content/uploads/2022/05/the_stranger.png" alt="" class="wp-image-30"/></figure>
+<figure class="wp-block-image size-full img-opacity-3"><img src="https://quickdemo.tv/img/the_stranger.png" alt="" class="wp-image-30"/></figure>
 <!-- /wp:image --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:column --></div>

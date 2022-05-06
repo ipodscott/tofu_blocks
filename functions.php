@@ -39,7 +39,7 @@ if (!function_exists("theme_enqueue_scripts_styles")):
   {
     wp_enqueue_style(
       "mytheme-style",
-      get_template_directory_uri() . "/assets/css/main_min.css",
+      get_template_directory_uri() . "/assets/css/style.css",
       false,
       "1.1",
       "all"
@@ -95,7 +95,6 @@ function movies_cpt()
   ]);
 }
 add_action("init", "movies_cpt");
-
 
 // Setup Core Block Patterns
 
