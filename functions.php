@@ -67,13 +67,13 @@ function recipe_cpt()
   register_post_type("recipe", [
     "labels" => [
       "name" => __("Recipes", "textdomain"),
-      "singular_name" => __("recipe", "textdomain"),
+      "singular_name" => __("Recipe", "textdomain"),
     ],
     "public" => true,
     "has_archive" => true,
     "show_in_rest" => true,
     "label" => "Recieps",
-    "template" => [["core/pattern", ["slug" => "layouts/recipe_page_starter"]]],
+    "template" => [["core/pattern", ["slug" => "page_starter/recipe_page_starter"]]],
   ]);
 }
 add_action("init", "recipe_cpt");
@@ -85,7 +85,7 @@ function movies_cpt()
   register_post_type("movies", [
     "labels" => [
       "name" => __("Movies", "textdomain"),
-      "singular_name" => __("movies", "textdomain"),
+      "singular_name" => __("Movie", "textdomain"),
     ],
     "public" => true,
     "has_archive" => true,

@@ -112,6 +112,14 @@
           "lineHeight": "var(--wp--custom--typography--line-height--tiny)",
           "fontSize": "18px"
         }
+      },
+      "core/list": {
+        "typography": {
+          "fontFamily": "Lato, sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "var(--wp--custom--typography--line-height--tiny)",
+          "fontSize": "18px"
+        }
       }
     },
     "color": {
