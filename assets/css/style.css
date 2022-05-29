@@ -1,1 +1,180 @@
-html{margin:0;padding:0}body{margin:0;padding:0;overflow-x:hidden;overflow-y:auto}body.stop-scroll{overflow:hidden}::-webkit-scrollbar{width:8px}::-webkit-scrollbar-track{background:#000}::-webkit-scrollbar-thumb{background:#999;border-radius:4px;transition:all 0.5s;height:60px}::-webkit-scrollbar-thumb:hover{background:#ccc}.all{display:block;position:relative;clear:both;margin-left:0;padding-bottom:80px;transition:all 0.5s;float:left;width:100%;height:100%;left:0;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;transform:scale(1)}.all.stop-scroll{transform:scale(0.95) !important;pointer-events:unset;overflow:hidden}.all.fade{width:100vw;left:260px}.main-container{width:calc(100vw - 80px);max-width:1400px;display:block;position:relative;margin:0 auto}.wp-block-columns{gap:0 2em !important}.wp-block-column{margin-right:0 !important;margin-left:0 !important}.reverse-columns{flex-direction:row-reverse}.footer{background-color:rgba(0, 0, 0, 0.9);color:#fff;display:flex;justify-content:center;align-items:center;position:fixed;min-height:80px;bottom:0;margin-bottom:0 !important;left:0;width:100%;transition:all 0.5s;z-index:10}.footer-down{bottom:-90px}.movies-container{display:block;position:absolute;top:0;left:0;width:100%;height:100vh;background-color:#333;gap:0 0 !important}.movies-left-column{display:block;position:relative;margin:0;padding:0;height:100vh;background-color:#000;overflow-y:auto;z-index:2;box-shadow:0px 0px 15px black;color:#fff}.movies-right-column{display:block;position:relative;margin:0;padding:0;height:100vh;background-color:#000;overflow:hidden;z-index:1;box-shadow:0px 0px 15px black;color:#fff}@media only screen and (max-width:781px){.movies-right-column{display:none}}.movie-right-overlay.wp-block-cover.has-parallax{background-position:center center !important}.left-movie-title{background-color:#252525;padding:20px 0 20px 0;text-transform:uppercase}.img-opacity-1{opacity:0.1}.img-opacity-2{opacity:0.2}.img-opacity-3{opacity:0.3}.img-opacity-4{opacity:0.4}.img-opacity-5{opacity:0.5}.img-opacity-6{opacity:0.6}.img-opacity-7{opacity:0.7}.img-opacity-8{opacity:0.8}.img-opacity-9{opacity:0.9}/*# sourceMappingURL=data:application/json,%7B%22version%22%3A3%2C%22sourceRoot%22%3A%22http%3A%2F%2Flocalhost%3A10034%2F%22%2C%22sources%22%3A%5B%22wp-content%2Fthemes%2Fsample_block_theme%2Fassets%2Fscss%2Fstyle.scss%22%5D%2C%22names%22%3A%5B%5D%2C%22mappings%22%3A%22AAAA%2CKAAA%2CkBAAA%2CCAKA%2CKAAA%2CoDAAA%2CCAOA%2CiBAAA%2CeAAA%2CCAKA%2CoBAAA%2CSAAA%2CCAKA%2C0BAAA%2CeAAA%2CCAKA%2C0BAAA%2CiEAAA%2CCAQA%2CgCAAA%2CeAAA%2CCAIA%2CKAAA%2CoSAAA%2CCAoBA%2CiBAAA%2CqEAAA%2CCAMA%2CUAAA%2CsBAAA%2CCAKA%2CgBAAA%2CuFAAA%2CCAQA%2CkBAAA%2CoBAAA%2CCAIA%2CiBAAA%2CkDAAA%2CCAKA%2CiBAAA%2C0BAAA%2CCAIA%2CQAAA%2CyNAAA%2CCAgBA%2CaAAA%2CYAAA%2CCAKA%2CkBAAA%2C6GAAA%2CCAWA%2CoBAAA%2CwJAAA%2CCAcA%2CqBAAA%2CwJAAA%2CCAcA%2CyCACE%2CqBAAA%2CYAAA%2CCAAA%2CCAKF%2CiDAAA%2C4CAAA%2CCAIA%2CkBAAA%2CuEAAA%2CCAMA%2CeAAA%2CWAAA%2CCAIA%2CeAAA%2CWAAA%2CCAIA%2CeAAA%2CWAAA%2CCAIA%2CeAAA%2CWAAA%2CCAIA%2CeAAA%2CWAAA%2CCAIA%2CeAAA%2CWAAA%2CCAIA%2CeAAA%2CWAAA%2CCAIA%2CeAAA%2CWAAA%2CCAIA%2CeAAA%2CWAAA%22%7D */
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+body.stop-scroll {
+	overflow: hidden;
+}
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-track {
+	background: #000;
+}
+::-webkit-scrollbar-thumb {
+	background: #999;
+	border-radius: 4px;
+	transition: all 0.5s;
+	height: 60px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #ccc;
+}
+
+ol, ul{
+	margin: 0;
+	padding: 0;
+	line-height: 1.25em;
+	list-style-position: inside;
+}
+
+ol li, ul li{
+	margin-bottom: 1.1em;
+}
+
+p{
+	margin-bottom: 1em;
+}
+.all {
+	display: block;
+	position: relative;
+	clear: both;
+	margin-left: 0;
+	padding-bottom: 80px;
+	transition: all 0.5s;
+	float: left;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	transform: scale(1);
+}
+.all.stop-scroll {
+	transform: scale(0.95) !important;
+	pointer-events: unset;
+	overflow: hidden;
+}
+.all.fade {
+	width: 100vw;
+	left: 260px;
+}
+.main-container {
+	width: calc(100vw - 80px);
+	max-width: 1400px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+}
+.wp-block-columns {
+	gap: 0 2em !important;
+}
+.wp-block-column {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+.reverse-columns {
+	flex-direction: row-reverse;
+}
+.footer {
+	background-color: rgba(0, 0, 0, 0.9);
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	min-height: 80px;
+	bottom: 0;
+	margin-bottom: 0 !important;
+	left: 0;
+	width: 100%;
+	transition: all 0.5s;
+	z-index: 10;
+}
+.footer-down {
+	bottom: -90px;
+}
+.movies-container {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: #333;
+	gap: 0 0 !important;
+}
+.movies-left-column {
+	display: block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	background-color: #000;
+	overflow-y: auto;
+	z-index: 2;
+	box-shadow: 0px 0px 15px black;
+	color: #fff;
+}
+.movies-right-column {
+	display: block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	background-color: #000;
+	overflow: hidden;
+	z-index: 1;
+	box-shadow: 0px 0px 15px black;
+	color: #fff;
+}
+@media only screen and (max-width: 781px) {
+	.movies-right-column {
+		display: none;
+	}
+}
+.movie-right-overlay.wp-block-cover.has-parallax {
+	background-position: center center !important;
+}
+.left-movie-title {
+	background-color: #252525;
+	padding: 20px 0 20px 0;
+	text-transform: uppercase;
+}
+.img-opacity-1 {
+	opacity: 0.1;
+}
+.img-opacity-2 {
+	opacity: 0.2;
+}
+.img-opacity-3 {
+	opacity: 0.3;
+}
+.img-opacity-4 {
+	opacity: 0.4;
+}
+.img-opacity-5 {
+	opacity: 0.5;
+}
+.img-opacity-6 {
+	opacity: 0.6;
+}
+.img-opacity-7 {
+	opacity: 0.7;
+}
+.img-opacity-8 {
+	opacity: 0.8;
+}
+.img-opacity-9 {
+	opacity: 0.9;
+}

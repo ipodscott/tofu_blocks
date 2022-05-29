@@ -16,12 +16,8 @@
 
 <!-- wp:columns {"className":"is-not-stacked-on-mobile"} -->
 <div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"width":"70%"} -->
-<div class="wp-block-column" style="flex-basis:70%"><!-- wp:paragraph -->
-<p><strong>ABOUT THIS RECIPE</strong></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Maecenas faucibus mollis interdum. Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+<div class="wp-block-column" style="flex-basis:70%"><!-- wp:paragraph {"className":"small-title"} -->
+<p class="small-title"><strong>ABOUT THIS RECIPE</strong><br>Maecenas faucibus mollis interdum. Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"20px"} -->

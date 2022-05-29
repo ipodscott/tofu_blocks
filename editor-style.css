@@ -4,6 +4,10 @@ body {
   flex-direction: row-reverse !important;
 }
 
+p{
+  margin-bottom: 1em !important;
+}
+
 .wp-block-columns {
   gap: 0 2em !important;
 }
@@ -24,4 +28,15 @@ body {
 
 .footer-down {
   bottom: -90px;
+}
+
+ol, ul{
+  margin: 0;
+  padding: 0;
+  line-height: 1.25em;
+  list-style-position: inside;
+}
+
+ol li, ul li{
+  margin-bottom: 1.1em;
 }
