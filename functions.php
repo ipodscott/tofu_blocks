@@ -62,6 +62,12 @@ if (!function_exists("theme_enqueue_scripts_styles")):
   add_action("wp_enqueue_scripts", "theme_enqueue_scripts_styles");
 endif;
 
+// Show Reusable Blocks from the backend
+function add_reusable_blocks_admin_menu() {
+    add_menu_page( 'Reusable Blocks', 'Reusable Blocks', 'edit_posts', 'edit.php?post_type=wp_block', '', 'dashicons-controls-repeat', 22 );
+}
+add_action( 'admin_menu', 'add_reusable_blocks_admin_menu' );
+
 function recipe_cpt()
 {
   register_post_type("recipe", [

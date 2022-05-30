@@ -39,7 +39,7 @@ ol li, ul li{
 }
 
 p{
-	margin-bottom: 1em;
+  padding-bottom: 1em;
 }
 .all {
 	display: block;

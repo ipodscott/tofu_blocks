@@ -2,7 +2,7 @@
 /**
   * Title: Recipe Page Starter
   * Slug: page_starter/recipe_page_starter
-  * Categories: page starter, text
+  * Categories: page_starter, text
   */
 ?>
 
@@ -14,33 +14,29 @@
 <div style="height:80px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:columns {"className":"is-not-stacked-on-mobile"} -->
-<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"width":"70%"} -->
-<div class="wp-block-column" style="flex-basis:70%"><!-- wp:paragraph {"className":"small-title"} -->
-<p class="small-title"><strong>ABOUT THIS RECIPE</strong><br>Maecenas faucibus mollis interdum. Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+<!-- wp:columns {"style":{"spacing":{"padding":{"right":"20px","left":"20px"}}}} -->
+<div class="wp-block-columns" style="padding-right:20px;padding-left:20px"><!-- wp:column {"width":"66.66%"} -->
+<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:paragraph -->
+<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 <!-- /wp:paragraph -->
-
-<!-- wp:spacer {"height":"20px"} -->
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
 
 <!-- wp:paragraph -->
-<p><strong>DIRECTIONS:</strong></p>
+<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"ordered":true} -->
-<ol><li>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit.</li><li>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit.</li><li>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit.</li></ol>
-<!-- /wp:list --></div>
+<!-- wp:paragraph -->
+<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"30%"} -->
-<div class="wp-block-column" style="flex-basis:30%"><!-- wp:heading {"level":3} -->
-<h3>Ingredients:</h3>
-<!-- /wp:heading -->
-
-<!-- wp:list -->
-<ul><li>Ingredient One</li><li>Ingredient Two</li><li>Ingredient Three</li><li>Ingredient Four</li></ul>
-<!-- /wp:list --></div>
+<!-- wp:column {"width":"33.33%"} -->
+<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:paragraph -->
+<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
