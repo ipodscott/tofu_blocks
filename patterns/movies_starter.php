@@ -1,9 +1,12 @@
 <?php
-register_block_pattern("layouts/movies_starter", [
-  "title" => __("Movie Page Starter", "textdomain"),
-  "categories" => ["page_starter"],
-  "keywords" => ["starter "],
-  "content" => '<!-- wp:columns {"align":"full","className":"movies-container"} -->
+/**
+  * Title: Movie Starter
+  * Slug: layouts/movie_starter
+  * Categories: page_starter, text
+  */
+?>
+
+<!-- wp:columns {"align":"full","className":"movies-container"} -->
 <div class="wp-block-columns alignfull movies-container"><!-- wp:column {"className":"movies-left-column"} -->
 <div class="wp-block-column movies-left-column"><!-- wp:paragraph {"align":"center","className":"left-movie-title"} -->
 <p class="has-text-align-center left-movie-title">Movie Title Place Holder</p>
@@ -35,5 +38,4 @@ register_block_pattern("layouts/movies_starter", [
 <!-- /wp:image --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns -->',
-]);
+<!-- /wp:columns -->
