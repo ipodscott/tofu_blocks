@@ -68,8 +68,11 @@ function add_reusable_blocks_admin_menu() {
 }
 add_action( 'admin_menu', 'add_reusable_blocks_admin_menu' );
 
+add_theme_support('post-thumbnails');
 function recipe_cpt()
 {
+  add_post_type_support( 'recipe', 'thumbnail' ); 
+  add_post_type_support( 'recipe', 'excerpt' );
   register_post_type("recipe", [
     "labels" => [
       "name" => __("Recipes", "textdomain"),
@@ -79,6 +82,7 @@ function recipe_cpt()
     "has_archive" => true,
     "show_in_rest" => true,
     "label" => "Recieps",
+    "rewrite" => array('slug' => 'recipe'),
     "template" => [["core/pattern", ["slug" => "page_starter/recipe_page_starter"]]],
   ]);
 }
@@ -88,6 +92,8 @@ add_action("init", "recipe_cpt");
 
 function movies_cpt()
 {
+  add_post_type_support( 'movies', 'thumbnail' ); 
+  add_post_type_support( 'movies', 'excerpt' );
   register_post_type("movies", [
     "labels" => [
       "name" => __("Movies", "textdomain"),
@@ -97,6 +103,7 @@ function movies_cpt()
     "has_archive" => true,
     "show_in_rest" => true,
     "label" => "Movies",
+    "rewrite" => array('slug' => 'movie'),
     "template" => [["core/pattern", ["slug" => "layouts/movies_starter"]]],
   ]);
 }

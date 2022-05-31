@@ -1,7 +1,7 @@
 <?php
   /**
   * Title: Movie Starter
-  * Slug: layouts/movie_starter
+  * Slug: layouts/movies_starter
   * Categories: page_starter, text
   */
 ?>
