@@ -68,7 +68,15 @@ function add_reusable_blocks_admin_menu() {
 }
 add_action( 'admin_menu', 'add_reusable_blocks_admin_menu' );
 
-add_theme_support('post-thumbnails');
+
+
+add_post_type_support( 
+  'page', array(
+    'thumbnail', 'excerpt'),
+    'post', array(
+    'thumbnail', 'excerpt'),
+  );
+
 function recipe_cpt()
 {
   add_post_type_support( 'recipe', 'thumbnail' ); 
