@@ -33,16 +33,20 @@ body.stop-scroll {
 ol, ul{
 	margin: 0;
 	padding: 0;
-	line-height: 1.25em;
+	line-height: 1.5em;
 	list-style-position: inside;
 }
 
 ol li, ul li{
-	margin-bottom: 1.1em;
+	padding-bottom: 1em;
 }
 
 p{
   padding-bottom: 1em;
+}
+
+p.small-title{
+	padding-bottom: 0;
 }
 .all {
 	display: block;
@@ -103,6 +107,10 @@ p{
 	width: 100%;
 	transition: all 0.5s;
 	z-index: 10;
+}
+
+.footer p{
+	padding-bottom: 0;
 }
 .footer-down {
 	bottom: -90px;
