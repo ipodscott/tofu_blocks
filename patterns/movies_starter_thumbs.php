@@ -1,8 +1,8 @@
 <?php
 /**
-  * Title: Movie Starter with Thumbs
-  * Slug: layouts/movie_thumbs_starter
-  * Categories: page_starter, text
+  * Title: Big Title
+  * Slug: titles/big_title
+  * Categories: 
   */
 ?>
 

@@ -1,7 +1,7 @@
 <?php
   /**
-  * Title: Movie Two Columns Starter
-  * Slug: layouts/movies_two_column_starter
+  * Title: Movie Starter
+  * Slug: layouts/movies_starter
   * Categories: page_starter, text
   */
 ?>
@@ -12,29 +12,18 @@
 <p class="has-text-align-center left-movie-title">The Stranger 1964</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"big-title"} -->
-<p class="big-title">About the Show</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"20px","right":"20px","bottom":"10px","left":"20px"}}},"backgroundColor":"foreground","textColor":"background"} -->
-<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:20px;padding-right:20px;padding-bottom:10px;padding-left:20px"><!-- wp:paragraph -->
+<!-- wp:acf/accordion {"id":"block_62731de28b4a9","name":"acf/accordion","data":{"accordion_header":"About the Show","_accordion_header":"field_614fe150a049f","active":"1","_active":"field_614ffa22baba1"},"align":"","mode":"preview"} -->
+<!-- wp:paragraph -->
 <p>The Walsh family welcome a mysterious stranger into their home. Impressed by the man's advanced intelligence and linguistic skills, Mr Walsh offers him a teaching job. </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>When a mysterious stranger appears on a family's doorstep, his arrival changes the course of human history. First aired in 1964 and unseen for over 50 years, The Stranger was Australia's first sci-fi TV series.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:paragraph {"className":"big-title"} -->
-<p class="big-title">EPiSodes</p>
 <!-- /wp:paragraph -->
+<!-- /wp:acf/accordion -->
 
+<!-- wp:acf/accordion {"id":"block_62733a0de62f4","name":"acf/accordion","data":{"accordion_header":"Episodes","_accordion_header":"field_614fe150a049f","active":"1","_active":"field_614ffa22baba1"},"align":"","mode":"preview"} -->
 <!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"20px","right":"20px","bottom":"10px","left":"20px"}}},"backgroundColor":"foreground","textColor":"background"} -->
-<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:20px;padding-right:20px;padding-bottom:10px;padding-left:20px"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:acf/video-button {"id":"block_62733a0ee62f5","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 1","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"mpVCdtt1ylI","_youtube_id":"field_606606753ded6"},"align":"","mode":"auto"} /-->
 
@@ -62,9 +51,8 @@
 
 <!-- wp:acf/video-button {"id":"block_6296e0c44b11e","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 12","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"U0V44EOhFW4","_youtube_id":"field_606606753ded6"},"align":"","mode":"auto"} /--></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:column --></div>
 <!-- /wp:columns -->
+<!-- /wp:acf/accordion -->
 
 <!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>

@@ -6,6 +6,10 @@ register_block_pattern_category("hero", [
   "label" => __("Hero"),
 ]);
 
+register_block_pattern_category("titles", [
+  "label" => __("Titles"),
+]);
+
 register_block_pattern_category("column_layout", [
   "label" => __("Column Layout"),
 ]);
