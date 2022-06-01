@@ -17,6 +17,13 @@ p.small-title{
   gap: 0 2em !important;
 }
 
+.left-movie-title {
+    background-color: #252525;
+    padding: 20px 0 20px 0;
+    text-transform: uppercase;
+    color: #efefef;
+}
+
 .big-title{
   display: flex;
   position: relative;
