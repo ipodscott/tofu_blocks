@@ -29,26 +29,11 @@ add_action('admin_footer', 'preview_stuff');
 /* Enqueue scripts and styles */
 if (!function_exists("theme_enqueue_scripts_styles")):
   function theme_enqueue_scripts_styles()
-  {
-    wp_enqueue_style(
-      "mytheme-style",
-      get_template_directory_uri() . "/assets/css/style.css",
-      false,
-      "1.1",
-      "all"
-    );
-    wp_enqueue_style(
-      "material_fonts",
-      "//fonts.googleapis.com/css?family=Material+Icons",
-      true,
-      "1.1",
-      "all"
-    );
-    wp_enqueue_script(
-      "scripts",
-      get_template_directory_uri() . "/assets/js/scripts.js",
-      ["jquery"],
-      "1.0",
+  { 
+	  wp_enqueue_style( "mytheme-style", get_template_directory_uri() . "/assets/css/style.css", false, "1.1", "all" );
+	  wp_enqueue_style( "editor-style", get_template_directory_uri() . "/editor-style.css", false, "1.1", "all" );
+	  wp_enqueue_style( "material_fonts", "//fonts.googleapis.com/css?family=Material+Icons", true, "1.1", "all" );
+	  wp_enqueue_script( "scripts", get_template_directory_uri() . "/assets/js/scripts.js", ["jquery"], "1.0",
       true
     );
   }
