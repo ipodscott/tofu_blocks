@@ -6,8 +6,8 @@
   */
 ?>
 
-<!-- wp:cover {"url":"/wp-content/themes/tofu_blocks/patterns/images/cutting_board.avif","id":163,"hasParallax":true,"dimRatio":70,"overlayColor":"foreground","minHeight":100,"minHeightUnit":"vh","align":"full"} -->
-<div class="wp-block-cover alignfull has-parallax" style="background-image:url(/wp-content/themes/tofu_blocks/patterns/images/cutting_board.avif);min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-foreground-background-color has-background-dim-70 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:post-title {"textAlign":"center"} /--></div></div>
+<!-- wp:cover {"url":"http://localhost:10054/wp-content/uploads/2022/06/pd_4512.jpg","id":27,"hasParallax":true,"dimRatio":50,"minHeight":430,"minHeightUnit":"px","align":"full"} -->
+<div class="wp-block-cover alignfull has-parallax" style="background-image:url(http://localhost:10054/wp-content/uploads/2022/06/pd_4512.jpg);min-height:430px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:post-title {"textAlign":"center"} /--></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:spacer {"height":"80px"} -->

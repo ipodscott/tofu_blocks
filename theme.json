@@ -18,7 +18,7 @@
     }
   ],
   "settings": {
-    "appearanceTools": true,
+	"appearanceTools": true,
     "color": {
       "palette": [
         {

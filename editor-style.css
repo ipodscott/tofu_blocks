@@ -27,6 +27,7 @@ p.small-title{
     padding: 20px 0 20px 0;
     text-transform: uppercase;
     color: #efefef;
+    margin: 0;
 }
 
 .big-title{
@@ -46,6 +47,7 @@ p.small-title{
   letter-spacing: 0.25em;
   transition: all 0.5s;
   color: #efefef;
+  margin: 0;
 }
 
 
