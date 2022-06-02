@@ -1,8 +1,8 @@
 <?php
 /**
-  * Title: Big Title
-  * Slug: titles/big_title
-  * Categories: 
+  * Title: Movie Starter with Thumbs
+  * Slug: layouts/movie_thumbs_starter
+  * Categories: page_starter
   */
 ?>
 
@@ -14,7 +14,11 @@
 
 <!-- wp:acf/accordion {"id":"block_62731de28b4a9","name":"acf/accordion","data":{"accordion_header":"About the videos","_accordion_header":"field_614fe150a049f","active":"1","_active":"field_614ffa22baba1"},"align":"","mode":"preview"} -->
 <!-- wp:paragraph -->
-<p>Lorem ipsum dolor sit amet diam imperdiet suspendisse malesuada neque tristique tempus rhoncus incididunt. Dictumst quisque sagittis eros pretium praesent tincidunt malesuada curabitur imperdiet luctus. Eleifend vivamus fringilla massa ultrices tristique lectus elit. Ullamcorper ac curabitur sodales quis elit adipiscing sed etiam rhoncus tortor dapibus leo egestas. Risus at imperdiet egestas senectus mauris auctor netus scelerisque cras cursus mattis.</p>
+<p>Lorem ipsum dolor sit amet diam imperdiet suspendisse malesuada neque tristique tempus rhoncus incididunt. Dictumst quisque sagittis eros pretium praesent tincidunt malesuada curabitur imperdiet luctus. Eleifend vivamus fringilla massa ultrices tristique lectus elit. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Ullamcorper ac curabitur sodales quis elit adipiscing sed etiam rhoncus tortor dapibus leo egestas. Risus at imperdiet egestas senectus mauris auctor netus scelerisque cras cursus mattis.</p>
 <!-- /wp:paragraph -->
 <!-- /wp:acf/accordion -->
 
