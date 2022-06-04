@@ -2,6 +2,7 @@
 /**
   * Title: Recipe Page Starter
   * Slug: page_starter/recipe_page_starter
+  * Block Types: core/post-content
   * Categories: page_starter, text
   */
 ?>

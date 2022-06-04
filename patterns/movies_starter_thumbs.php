@@ -2,6 +2,7 @@
 /**
   * Title: Movie Starter with Thumbs
   * Slug: layouts/movie_thumbs_starter
+  * Block Types: core/post-content
   * Categories: page_starter
   */
 ?>

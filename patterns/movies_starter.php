@@ -2,6 +2,7 @@
   /**
   * Title: Movie Two Columns Starter
   * Slug: layouts/movies_two_column_starter
+  * Block Types: core/post-content
   * Categories: page_starter, text
   */
 ?>
