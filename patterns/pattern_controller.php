@@ -22,3 +22,6 @@ register_block_pattern_category("footers", [
   "label" => __("Footers"),
 ]);
 
+register_block_pattern_category("utilities", [
+  "label" => __("Utilities"),
+]);

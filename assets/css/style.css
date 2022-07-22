@@ -29,6 +29,18 @@ body.stop-scroll {
   background: #ccc;
 }
 
+.sticky{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: auto;
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
 .all {
   display: block;
   position: relative;
@@ -49,7 +61,7 @@ body.stop-scroll {
   transform: scale(1);
 }
 .all.stop-scroll {
-  transform: scale(0.95) !important;
+  transform: scale(0.95);
   pointer-events: unset;
   overflow: hidden;
 }
@@ -63,4 +75,12 @@ body.stop-scroll {
   display: block;
   position: relative;
   margin: 0 auto;
+}
+
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+}
+
+.wp-block-columns.accord-content{
+  display:none;
 }

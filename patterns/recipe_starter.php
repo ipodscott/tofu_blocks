@@ -2,13 +2,13 @@
 /**
   * Title: Recipe Page Starter
   * Slug: page_starter/recipe_page_starter
-  * Block Types: core/post-content
+  * Block Types: core/recipes-content
   * Categories: page_starter, text
   */
 ?>
 
-<!-- wp:cover {"url":"http://localhost:10054/wp-content/uploads/2022/06/pd_4512.jpg","id":27,"hasParallax":true,"dimRatio":50,"minHeight":430,"minHeightUnit":"px","align":"full"} -->
-<div class="wp-block-cover alignfull has-parallax" style="background-image:url(http://localhost:10054/wp-content/uploads/2022/06/pd_4512.jpg);min-height:430px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:post-title {"textAlign":"center"} /--></div></div>
+<!-- wp:cover {"useFeaturedImage":true,"dimRatio":50,"focalPoint":{"x":"0.42","y":"0.49"},"minHeight":100,"minHeightUnit":"vh","contentPosition":"center center","isDark":false,"align":"full"} -->
+<div class="wp-block-cover alignfull is-light" style="min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:post-title {"textAlign":"center","textColor":"background"} /--></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:spacer {"height":"80px"} -->

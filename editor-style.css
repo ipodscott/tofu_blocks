@@ -2,13 +2,6 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.wp-block-columns {
-  gap: 0 20px !important;
-}
-.wp-block-column {
-  margin-right: 0 !important;
-  margin-left: 0 !important;
-}
 .reverse-columns {
   flex-direction: row-reverse;
 }
@@ -98,7 +91,7 @@ p.small-title {
   position: fixed;
   min-height: 80px;
   bottom: 0;
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
   left: 0;
   width: 100%;
   transition: all 0.5s;
@@ -187,4 +180,28 @@ p.small-title {
 }
 .img-opacity-9 {
   opacity: 0.9;
+}
+
+.accordion{
+  width: 100%;
+}
+.acc-top{
+  cursor: pointer;
+  background-color: #efefef;
+  padding: 10px;
+}
+
+.acc-top p{
+  padding-bottom: 0;
+  line-height: 1em;
+}
+
+.wp-block-columns.accord-content{
+  padding: 10px
+}
+
+.fw-row{
+  background-color: #336699;
+  position: relative;
+  width: 100% !important;
 }
