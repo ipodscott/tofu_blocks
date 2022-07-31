@@ -3,7 +3,9 @@ body {
 }
 
 .wp-block-columns {
-	gap: 0 2em !important;
+	gap: 0 20px !important;
+	margin: 0 !important;
+	padding: 0 !important;
 }
 .wp-block-column {
 	margin-right: 0 !important;
@@ -13,9 +15,17 @@ body {
 	flex-direction: row-reverse;
 }
 
+.edit-post-visual-editor__post-title-wrapper h1{
+	max-width: none;
+	padding: 0 20px 0 20px;
+	font-size: 24px;
+	font-family: Lato, sans-serif;
+}
+
 p{
   padding-bottom: 1em;
   line-height: 1.5em;
+  margin-top:0 !important;
 }
 
 p.small-title{
@@ -24,10 +34,13 @@ p.small-title{
 
 .left-movie-title {
     background-color: #252525;
-    padding: 20px 0 20px 0;
+    padding: 20px;
     text-transform: uppercase;
     color: #efefef;
     margin: 0;
+    display: block;
+    position: relative;
+    width: 100%;
 }
 
 .big-title{
@@ -47,7 +60,7 @@ p.small-title{
   letter-spacing: 0.25em;
   transition: all 0.5s;
   color: #efefef;
-  margin: 0;
+  margin: 0 0 0 0 !important;
 }
 
 

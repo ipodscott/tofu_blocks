@@ -183,9 +183,6 @@
           "text": "var(--wp--preset--color--foreground)"
         }
       }
-    },
-    "spacing": {
-      "blockGap": "0 2em"
     }
   },
   "templateParts": [
