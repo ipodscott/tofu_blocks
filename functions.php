@@ -8,9 +8,7 @@ if (!function_exists("block_theme_setup")):
     // Enqueue editor styles.
     add_editor_style("editor-style.css");
     // Enqueue Google Fonts to Appear both in the Admin Area and Front End. Google hosted fonts are not fully supported.
-    wp_enqueue_style( "lato", "//fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap", true, "1.1", "all" );
-    wp_enqueue_style( "poppins", "//fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap", true, "1.1", "all" );
-    wp_enqueue_style( "roboto", "//fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap", true, "1.1", "all" );
+   
   }
   add_action("after_setup_theme", "block_theme_setup");
 endif;
@@ -20,12 +18,13 @@ function preview_stuff()
 // Adds preview stuff.
 {
   wp_enqueue_style( "lato", "//fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap", true, "1.1", "all" );
-  wp_enqueue_style( "poppins", "//fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap", true, "1.1", "all" );
-  wp_enqueue_style( "roboto", "//fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap", true, "1.1", "all" );
+  wp_enqueue_style( "montserrat", "/fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap", true, "1.1", "all" );
   wp_enqueue_style( 'admin', get_template_directory_uri() . '/assets/css/admin.css',true,'1.1','all');
   wp_enqueue_script( "scripts", get_template_directory_uri() . "/assets/js/scripts.js", ["jquery"], "1.0", true );
 }
 add_action('admin_footer', 'preview_stuff');
+
+
 
 /* Enqueue scripts and styles */
 if (!function_exists("theme_enqueue_scripts_styles")):
@@ -97,4 +96,4 @@ add_action("init", "movies_cpt");
 
 // Setup Core Block Patterns
 
-include_once "patterns/pattern_controller.php";
+include_once "pattern_controller.php";

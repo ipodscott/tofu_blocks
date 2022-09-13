@@ -7,19 +7,19 @@
   */
 ?>
 
-<!-- wp:columns {"align":"full","className":"movies-container"} -->
+  <!-- wp:columns {"align":"full","className":"movies-container"} -->
 <div class="wp-block-columns alignfull movies-container"><!-- wp:column {"className":"movies-left-column"} -->
 <div class="wp-block-column movies-left-column"><!-- wp:paragraph {"align":"center","className":"left-movie-title"} -->
 <p class="has-text-align-center left-movie-title">The Stranger 1964</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"big-title"} -->
-<p class="big-title">About the show</p>
+<p class="big-title">About the Show</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"right":"20px","left":"20px","top":"20px"}}}} -->
-<div class="wp-block-column" style="padding-top:20px;padding-right:20px;padding-left:20px"><!-- wp:paragraph -->
+<div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"0px","right":"20px","bottom":"30px","left":"20px"}}},"backgroundColor":"foreground","textColor":"background"} -->
+<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:0px;padding-right:20px;padding-bottom:30px;padding-left:20px"><!-- wp:paragraph -->
 <p>The Walsh family welcome a mysterious stranger into their home. Impressed by the man's advanced intelligence and linguistic skills, Mr Walsh offers him a teaching job. </p>
 <!-- /wp:paragraph -->
 
@@ -30,36 +30,40 @@
 <!-- /wp:columns -->
 
 <!-- wp:paragraph {"className":"big-title"} -->
-<p class="big-title">Episodes</p>
+<p class="big-title">EPiSodes</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:columns {"style":{"spacing":{"padding":{"top":"20px","right":"20px","bottom":"20px","left":"20px"}}}} -->
-<div class="wp-block-columns" style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:acf/video-button {"id":"block_62733a0ee62f5","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 1","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"mpVCdtt1ylI","_youtube_id":"field_606606753ded6"},"align":"","mode":"auto"} /-->
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"0px","right":"20px","bottom":"0px","left":"20px"}}},"backgroundColor":"foreground","textColor":"background"} -->
+<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:0px;padding-right:20px;padding-bottom:0px;padding-left:20px"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:acf/video-button {"id":"block_62733a0ee62f5","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 1","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"mpVCdtt1ylI","_youtube_id":"field_606606753ded6"},"align":"","mode":"preview"} /-->
 
-<!-- wp:acf/video-button {"id":"block_62733c63d999f","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 2","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"Uo0RH6ZJPI8","_youtube_id":"field_606606753ded6"},"align":"","mode":"auto"} /-->
+<!-- wp:acf/video-button {"id":"block_62733c63d999f","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 2","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"Uo0RH6ZJPI8","_youtube_id":"field_606606753ded6"},"align":"","mode":"preview"} /-->
 
-<!-- wp:acf/video-button {"id":"block_62733d15c9cb9","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 3","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"N3Do1YwisTU","_youtube_id":"field_606606753ded6"},"align":"","mode":"auto"} /-->
+<!-- wp:acf/video-button {"id":"block_62733d15c9cb9","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 3","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"N3Do1YwisTU","_youtube_id":"field_606606753ded6"},"align":"","mode":"preview"} /-->
 
-<!-- wp:acf/video-button {"id":"block_6294ef36bd5a5","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 4","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"PH0S8XWyQ1U","_youtube_id":"field_606606753ded6"},"align":"","mode":"auto"} /-->
+<!-- wp:acf/video-button {"id":"block_6294ef36bd5a5","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 4","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"PH0S8XWyQ1U","_youtube_id":"field_606606753ded6"},"align":"","mode":"preview"} /-->
 
-<!-- wp:acf/video-button {"id":"block_6296e03b4b117","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 5","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"_rXnTBNsElQ","_youtube_id":"field_606606753ded6"},"align":"","mode":"auto"} /-->
+<!-- wp:acf/video-button {"id":"block_6296e03b4b117","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 5","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"_rXnTBNsElQ","_youtube_id":"field_606606753ded6"},"align":"","mode":"preview"} /-->
 
-<!-- wp:acf/video-button {"id":"block_6296e0494b118","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 6","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"PTP5mWvNu1g","_youtube_id":"field_606606753ded6"},"align":"","mode":"auto"} /--></div>
+<!-- wp:acf/video-button {"id":"block_6296e0494b118","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 6","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"PTP5mWvNu1g","_youtube_id":"field_606606753ded6"},"align":"","mode":"preview"} /--></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:acf/video-button {"id":"block_6296e0594b119","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 7","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"TWuv_s2ETPY","_youtube_id":"field_606606753ded6"},"align":"","mode":"auto"} /-->
+<div class="wp-block-column"><!-- wp:acf/video-button {"id":"block_6296e0594b119","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 7","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"TWuv_s2ETPY","_youtube_id":"field_606606753ded6"},"align":"","mode":"preview"} /-->
 
-<!-- wp:acf/video-button {"id":"block_6296e06c4b11a","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 8","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"46y6L03GtH8","_youtube_id":"field_606606753ded6"},"align":"","mode":"auto"} /-->
+<!-- wp:acf/video-button {"id":"block_6296e06c4b11a","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 8","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"46y6L03GtH8","_youtube_id":"field_606606753ded6"},"align":"","mode":"preview"} /-->
 
-<!-- wp:acf/video-button {"id":"block_6296e0914b11b","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 9","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"K8Ff630F6VM","_youtube_id":"field_606606753ded6"},"align":"","mode":"auto"} /-->
+<!-- wp:acf/video-button {"id":"block_6296e0914b11b","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 9","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"K8Ff630F6VM","_youtube_id":"field_606606753ded6"},"align":"","mode":"preview"} /-->
 
-<!-- wp:acf/video-button {"id":"block_6296e0a54b11c","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 10","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"f7yA18JalpQ","_youtube_id":"field_606606753ded6"},"align":"","mode":"auto"} /-->
+<!-- wp:acf/video-button {"id":"block_6296e0a54b11c","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 10","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"f7yA18JalpQ","_youtube_id":"field_606606753ded6"},"align":"","mode":"preview"} /-->
 
-<!-- wp:acf/video-button {"id":"block_6296e0b54b11d","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 11","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"2-GXWM6h13s","_youtube_id":"field_606606753ded6"},"align":"","mode":"auto"} /-->
+<!-- wp:acf/video-button {"id":"block_6296e0b54b11d","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 11","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"2-GXWM6h13s","_youtube_id":"field_606606753ded6"},"align":"","mode":"preview"} /-->
 
-<!-- wp:acf/video-button {"id":"block_6296e0c44b11e","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 12","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"U0V44EOhFW4","_youtube_id":"field_606606753ded6"},"align":"","mode":"auto"} /--></div>
+<!-- wp:acf/video-button {"id":"block_6296e0c44b11e","name":"acf/video-button","data":{"button_type":"text","_button_type":"field_613b95fba846e","button_title":"Episode 12","_button_title":"field_6066082aa79e4","select_video_source":"youtube","_select_video_source":"field_606606753de5f","resolution":"sixteen-nine-btn","_resolution":"field_606606753de9b","use_custom_thumbnail":"0","_use_custom_thumbnail":"field_622eb1baad7c9","youtube_id":"U0V44EOhFW4","_youtube_id":"field_606606753ded6"},"align":"","mode":"preview"} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
