@@ -29,16 +29,14 @@ body.stop-scroll {
   background: #ccc;
 }
 
-.sticky{
+.sticky-block{
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   height: auto;
   width: 100vw;
-  position: sticky;
   top: 0;
-  background-color: #fff;
 }
 
 .all {
@@ -68,17 +66,6 @@ body.stop-scroll {
 .all.fade {
   width: 100vw;
   left: 260px;
-}
-.main-container {
-  width: calc(100vw - 80px);
-  max-width: 1400px;
-  display: block;
-  position: relative;
-  margin: 0 auto;
-}
-
-.animate__animated.animate__bounce {
-  --animate-duration: 2s;
 }
 
 .wp-block-columns.accord-content{

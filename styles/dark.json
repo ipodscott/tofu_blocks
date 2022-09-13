@@ -23,12 +23,12 @@
       "palette": [
         {
           "slug": "foreground",
-          "color": "#000000",
+          "color": "#efefef",
           "name": "Foreground"
         },
         {
           "slug": "background",
-          "color": "#efefef",
+          "color": "#000000",
           "name": "Background"
         },
         {
@@ -61,9 +61,9 @@
           "slug": "lato"
         },
         {
-          "fontFamily": "Montserrat, sans-serif",
-          "name": "Montserrat",
-          "slug": "montserrat"
+          "fontFamily": "Roboto Slab, serif",
+          "name": "Roboto Slab",
+          "slug": "roboto-slab"
         },
         {
           "fontFamily": "Poppins, sans-serif",
@@ -97,13 +97,13 @@
   },
   "styles": {
     "spacing": {
-			"blockGap": "01.5rem"
+			"blockGap": "1.5rem"
 		},
     "blocks": {
       "core/post-title": {
         "typography": {
-          "fontFamily": "Montserrat, sans-serif",
-          "fontWeight": "700",
+          "fontFamily": "Roboto Slab, sans-serif",
+          "fontWeight": "400",
           "lineHeight": "var(--wp--custom--typography--line-height--tiny)",
           "fontSize": "36px"
         }
@@ -132,7 +132,7 @@
     "elements": {
       "h1": {
         "typography": {
-          "fontFamily": "Montserrat, sans-serif",
+          "fontFamily": "Roboto Slab, sans-serif",
           "fontWeight": "300",
           "lineHeight": "2em",
           "fontSize": "24px"
@@ -140,7 +140,7 @@
       },
       "h2": {
         "typography": {
-          "fontFamily": "Montserrat, sans-serif",
+          "fontFamily": "Roboto Slab, sans-serif",
           "fontWeight": "400",
           "lineHeight": "2em",
           "fontSize": "24px"
@@ -148,7 +148,7 @@
       },
       "h3": {
         "typography": {
-          "fontFamily": "Montserrat, sans-serif",
+          "fontFamily": "Roboto Slab, sans-serif",
           "fontWeight": "400",
           "lineHeight": "2em",
           "fontSize": "24px",
@@ -157,7 +157,7 @@
       },
       "h4": {
         "typography": {
-          "fontFamily": "Montserrat, sans-serif",
+          "fontFamily": "Roboto Slab, sans-serif",
           "fontWeight": "400",
           "lineHeight": "var(--wp--custom--typography--line-height--tiny)",
           "fontSize": "var(--wp--preset--font-size--x-large)"
@@ -165,7 +165,7 @@
       },
       "h5": {
         "typography": {
-          "fontFamily": "Montserrat, sans-serif",
+          "fontFamily": "Roboto Slab, sans-serif",
           "fontWeight": "700",
           "textTransform": "uppercase",
           "lineHeight": "var(--wp--custom--typography--line-height--normal)",
@@ -174,7 +174,7 @@
       },
       "h6": {
         "typography": {
-          "fontFamily": "Montserrat, sans-serif",
+          "fontFamily": "Roboto Slab, sans-serif",
           "fontWeight": "400",
           "textTransform": "uppercase",
           "lineHeight": "var(--wp--custom--typography--line-height--normal)",
